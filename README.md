@@ -1,0 +1,1 @@
+https://ssr.vuejs.org/en/data.html
