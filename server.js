@@ -7,7 +7,7 @@ const createApp = require('/path/to/built-server-bundle.js');
 
 server.get('*', (req, res) => {
     const context = {url: req.url};
-
+    //vue模版渲染
     createApp(context).then(app => {
         renderer.renderToString(app, (err, html) => {
             if (err) {

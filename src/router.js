@@ -9,11 +9,11 @@ export default function createRouter() {
         routes: [
             {
                 path: '/',
-                component: () => import('./components/Home.vue')
+                component: () => {import './components/Home.vue'}
             },
             {
                 path: '/item/:id',
-                component: () => import('./components/Item.vue')
+                component: () => {import './components/Item.vue'}
             }
         ]
     });
